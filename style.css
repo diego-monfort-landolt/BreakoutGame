@@ -1,0 +1,33 @@
+.grid {
+    position: absolute;
+    width: 34.8rem;
+    height: 18.75rem;
+    border: 1px solid #000;
+
+}
+.block {
+    position: absolute;
+    width: 6.25rem;
+    height: 1.25rem;
+    background-color: blue;
+  
+}
+.user {
+    position: absolute;
+    width: 6.25rem;
+    height: 1.45rem;
+    background-color: #000;
+
+    border-radius: .6rem;
+    outline: none;
+  
+}
+
+.ball {
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.62rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    outline: none;
+}
